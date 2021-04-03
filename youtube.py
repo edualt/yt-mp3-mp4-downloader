@@ -12,5 +12,5 @@ if vid == "mp4":
     video = funciones.mp4(link)
     
 if vid == "mp3":
-    link = YouTube(str(link))
+    link = YouTube(link)
     audio = funciones.mp3(link)
